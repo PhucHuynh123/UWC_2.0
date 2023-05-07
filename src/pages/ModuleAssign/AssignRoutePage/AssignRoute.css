@@ -1,0 +1,44 @@
+.assignRoute .wrapper {
+  max-width: 1320px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6fdfc;
+  border-radius: 16px;
+}
+
+.assignRoute .title {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: var(--title-color);
+}
+
+.assignRoute .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.assignRoute .content .content_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+
+.assignRoute .content .content_left .map {
+  width: 430px;
+  height: 430px;
+  background: #e3e3e3;
+  margin-bottom: 16px;
+}
+
+.assignRoute .content .content_left .md-btn {
+  margin-left: 0;
+}

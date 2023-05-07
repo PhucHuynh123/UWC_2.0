@@ -1,0 +1,63 @@
+.signup_header {
+  min-height: 108px;
+  background-color: #e8f3f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup_header img {
+  height: 74px;
+  width: 74px;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 20px;
+}
+
+.signup .content_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #f8fff8;
+}
+
+.signup .content_left h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-top: 12px;
+}
+
+.signup .content_left .form_group {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup .content_left .form_group label {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  margin: 8px 0;
+}
+
+.signup .content_left .form_group input {
+  height: 40px;
+  min-width: 400px;
+  border-radius: 8px;
+  border-color: #c7c7c7;
+}
+
+.signup .content_left .lg-btn {
+  margin: 12px 0;
+  width: 400px;
+}
+
+.signup .content_left a {
+  color: #0875f7;
+}

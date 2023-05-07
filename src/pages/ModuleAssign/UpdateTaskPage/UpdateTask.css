@@ -1,0 +1,72 @@
+.update_task .wrapper {
+  max-width: 1320px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6fdfc;
+  border-radius: 16px;
+}
+
+.update_task .title {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: var(--title-color);
+}
+
+.update_task .content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.update_task .content .content_left {
+  text-align: center;
+  padding: 0 16px;
+}
+
+.update_task .content .content_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.update_task .content .input_block {
+  background-color: #ffe9cc;
+  display: flex;
+  align-items: center;
+  padding: 26px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.update_task .content .input_block label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 41px;
+  margin-right: 12px;
+}
+
+.update_task .content .input_block span,
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0 12px;
+}
+
+.update_task .content .input_block .md-btn {
+  margin-left: auto;
+}
+
+.update_task .action {
+  display: flex;
+  margin-left: auto;
+}
+
+.update_task .action .cancel {
+  background-color: #e3e3e3;
+  color: black;
+}

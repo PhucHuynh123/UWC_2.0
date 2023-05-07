@@ -1,0 +1,29 @@
+.homepage_image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.homepage_notlogin .wrapper {
+  min-height: 600px;
+  padding: 0 12px;
+}
+
+.homepage_notlogin .content {
+  margin-top: 100px;
+  width: 360px;
+  color: #333;
+}
+
+.homepage_notlogin .content h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+}
+
+.homepage_notlogin .content span {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+}

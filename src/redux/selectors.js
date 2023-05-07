@@ -1,0 +1,9 @@
+export const getVehicleSelector = (state) => state.task.vehicle;
+export const getRouteSelector = (state) => state.task.route;
+export const getTimeSelector = (state) => state.task.time;
+export const getListRouteSelector = (state) => state.routeList;
+export const getCollectorSelector = (state) => state.collector;
+export const getJanitorSelector = (state) => state.janitor;
+export const getCollectorTasksSelector = (state) => state.collectorTasks;
+export const getJanitorTasksSelector = (state) => state.janitorTasks;
+export const getTask = (state) => state.task;

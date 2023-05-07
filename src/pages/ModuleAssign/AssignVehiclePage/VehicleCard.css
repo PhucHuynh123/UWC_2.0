@@ -1,0 +1,34 @@
+.vehicleCard .content_item {
+  max-width: 100%;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  background-color: #ffe9cc;
+  margin: 10px 0;
+  padding-left: 8px;
+  border-radius: 8px;
+}
+
+.vehicleCard .content_item .id,
+.vehicleCard .content_item .name,
+.vehicleCard .content_item .weight,
+.vehicleCard .content_item .status {
+  margin-left: 16px;
+  padding: 12px;
+  text-align: center;
+  background-color: rgba(21, 54, 9, 0.15);
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 8px;
+}
+
+.vehicleCard .content_item .status {
+  min-width: 140px;
+}
+
+.vehicleCard .content_item .action_btn {
+  margin-left: auto;
+  margin-right: 24px;
+}

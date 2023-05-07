@@ -1,0 +1,34 @@
+.homepage .header {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.homepage_image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.homepage .wrapper {
+  min-height: 600px;
+  padding: 0 12px;
+}
+
+.homepage .content {
+  margin-top: 100px;
+  width: 360px;
+  color: #333;
+}
+
+.homepage .content h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+}
+
+.homepage .content span {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+}

@@ -1,0 +1,22 @@
+.header_not_login .navbar {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  margin: 20px 0;
+}
+
+.header_not_login .navbar_brand {
+  display: inline-block;
+}
+
+.header_not_login .navbar_brand img {
+  width: 74px;
+  height: 74px;
+}
+
+.header_not_login .navbar_action-login {
+  background-color: #fff;
+  color: #000;
+}

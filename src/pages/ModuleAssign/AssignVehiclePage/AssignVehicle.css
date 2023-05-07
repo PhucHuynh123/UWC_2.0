@@ -1,0 +1,19 @@
+.assignVehicle .wrapper {
+    max-width: 1320px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6fdfc;
+    border-radius: 16px;
+  }
+  
+  .assignVehicle .title {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    color: var(--title-color);
+  }
+  

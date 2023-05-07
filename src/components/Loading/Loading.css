@@ -1,0 +1,23 @@
+.loading-logo {
+    animation: spin 2s linear infinite;
+    max-width: 200px;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  /* flex flex-col items-center justify-center h-screen */

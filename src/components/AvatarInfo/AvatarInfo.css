@@ -1,0 +1,14 @@
+.user_avatar {
+  width: 160px;
+  height: 160px;
+  background-color: #e3e3e3;
+  border-radius: 50%;
+}
+
+.user_role,
+.user_name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
+}

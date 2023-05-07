@@ -1,0 +1,63 @@
+.employeeTask .wrapper {
+  max-width: 1320px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6fdfc;
+  border-radius: 16px;
+}
+
+.employeeTask .title {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: var(--title-color);
+}
+
+.employeeTask .action {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.employeeTask .action input {
+  width: 400px;
+  height: 48px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.employeeTask .action select {
+  height: 48px;
+  max-width: 200px;
+  padding: 12px 16px;
+  margin-left: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--btn-action-color);
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.employeeTask .content {
+  width: 100%;
+  padding: 20px 12px;
+  display: flex;
+}
+
+.employeeTask .content .content_left {
+  text-align: center;
+  padding: 0 16px;
+}
+
+.employeeTask .content .content_right {
+  flex: 1;
+}
